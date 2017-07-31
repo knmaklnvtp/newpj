@@ -11,6 +11,7 @@ namespace Bài_tập_lớn
 {
     public partial class HeThong : Form
     {
+        private const string fmTenSach = "Sách {0}";
         public HeThong()
         {
             InitializeComponent();
@@ -65,6 +66,11 @@ namespace Bài_tập_lớn
         private void btnTimkiem_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private string formatTenSach(string tensach)
+        {
+            var formated = string.Format(fmTenSach, tensach);
         }
     }
 }
