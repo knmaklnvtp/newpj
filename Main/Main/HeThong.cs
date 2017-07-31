@@ -11,6 +11,11 @@ namespace Bài_tập_lớn
 {
     public partial class HeThong : Form
     {
+		private string formatTenSach(string tensach)
+        {
+            var formated = string.Format(fmTenSach, tensach);
+            return formated;
+        }
         private const string fmTenSach = "Sách {0}";
         public HeThong()
         {
