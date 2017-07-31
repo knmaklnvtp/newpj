@@ -1,1 +1,1 @@
-alo
+<font color="blue"> Xin chào đây là demo</font>
